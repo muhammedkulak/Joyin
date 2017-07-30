@@ -1,0 +1,46 @@
+<ion-view  class="back">
+ <ion-nav-title>
+        
+
+        <div class="bar bar-header item-input-inset" id="" style="border-bottom:none">
+  <label class="item-input-wrapper">
+  <a href="#/tab/search">
+    <i onclick="" style="font-size:25px" class="icon ion-android-arrow-back"></i></a>
+    <input type="search" placeholder="Search" value="#Bicycle">
+
+      <button class="button button-clear"><i style="color:grey;font-size:16px;" class="ion-android-close"></i></button>
+  </label>
+  
+</div>
+     </ion-nav-title>
+      <div style=""  class="tabs-striped tabs-top tabs-color-light">
+    <div id="newtabs" class="tabs">
+      <a class="tab-item active" href="">
+        Latest
+      </a>
+      <a class="tab-item" href="">
+        Locations
+      </a>
+      <a class="tab-item" href="">
+        Events
+      </a>
+            <a class="tab-item">Tags</a>
+    </div>
+  </div>
+  <ion-content overflow-scroll="false" scrollbar-y="false" >
+ <ion-slide-box style="margin-top:48px;"  on-slide-changed="slideHasChanged($index)" show-pager="false">
+<ion-slide>
+<ion-list>
+      <ion-item class="item-avatar item-icon-right" style="border:none;"><img style="box-shadow:0 0 0 2px hsl(0, 50%, 80%),0 0 0 1px hsl(0, 14%, 90%);margin-top:0px;" ng-src=".\img\adam.jpg">
+        <div style="margin-left:25px">
+               <p style="font-weight: bold;font-size:12px;color:black">Erhan Yıldırım</p>
+
+        <p style="color:#FF7D15">Come with Bicycle</p>
+        <p style="font-weight: bold;font-size:12px;"><i class="ion-location" style="font-size:13px;margin-right:3px;"></i>Kadkıöy<i class="ion-clock" style="margin-left:12px;margin-right:3px;"></i>11 AM</p>
+</div>
+      </ion-item>
+    </ion-list>
+</ion-slide>
+</ion-slide-box>
+  </ion-content>
+</ion-view>

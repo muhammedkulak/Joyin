@@ -1,0 +1,218 @@
+/*
+1.
+.colorful {
+	background:
+		-webkit-linear-gradient(45deg, hsla(209, 93%, 42%, 1) 0%, hsla(209, 93%, 42%, 0) 70%),
+		-webkit-linear-gradient(315deg, hsla(50, 98%, 44%, 1) 10%, hsla(50, 98%, 44%, 0) 80%),
+		-webkit-linear-gradient(225deg, hsla(1, 98%, 44%, 1) 10%, hsla(1, 98%, 44%, 0) 80%),
+		-webkit-linear-gradient(135deg, hsla(204, 95%, 44%, 1) 100%, hsla(204, 95%, 44%, 0) 70%);
+	background:
+		linear-gradient(45deg, hsla(209, 93%, 42%, 1) 0%, hsla(209, 93%, 42%, 0) 70%),
+		linear-gradient(135deg, hsla(50, 98%, 44%, 1) 10%, hsla(50, 98%, 44%, 0) 80%),
+		linear-gradient(225deg, hsla(1, 98%, 44%, 1) 10%, hsla(1, 98%, 44%, 0) 80%),
+		linear-gradient(315deg, hsla(204, 95%, 44%, 1) 100%, hsla(204, 95%, 44%, 0) 70%);
+	}*/
+#newtabs{
+	background: -webkit-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: -o-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: -ms-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: -moz-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: linear-gradient(to right, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+
+}
+.colorful {
+	background:
+		-webkit-linear-gradient(45deg, hsla(359, 35%, 35%, 1) 0%, hsla(359, 35%, 35%, 0) 70%),
+		-webkit-linear-gradient(315deg, hsla(332, 96%, 44%, 1) 10%, hsla(332, 96%, 44%, 0) 80%),
+		-webkit-linear-gradient(225deg, hsla(0, 96%, 43%, 1) 10%, hsla(0, 96%, 43%, 0) 80%),
+		-webkit-linear-gradient(135deg, hsla(75, 98%, 49%, 1) 100%, hsla(75, 98%, 49%, 0) 70%);
+	background:
+		linear-gradient(45deg, hsla(359, 35%, 35%, 1) 0%, hsla(359, 35%, 35%, 0) 70%),
+		linear-gradient(135deg, hsla(332, 96%, 44%, 1) 10%, hsla(332, 96%, 44%, 0) 80%),
+		linear-gradient(225deg, hsla(0, 96%, 43%, 1) 10%, hsla(0, 96%, 43%, 0) 80%),
+		linear-gradient(315deg, hsla(75, 98%, 49%, 1) 100%, hsla(75, 98%, 49%, 0) 70%);
+	}
+.nav-bar-block, .bar {
+	background-color: white;
+
+}
+.bar.bar-stable{
+		
+  background: -webkit-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: -o-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: -ms-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: -moz-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: linear-gradient(to right, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+	border:none;
+}
+.tabs {
+  background: -webkit-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: -o-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: -ms-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: -moz-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: linear-gradient(to right, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+border:none;
+}
+.item-remove-animate .item-avatar .item-icon-right{
+	margin: 10px;
+border-radius: 15px;
+}
+#hh{
+	color: white;
+	text-align:center;
+	font-size:36px;
+	font-family: 'My Custom Font', Verdana, Tahoma;
+}
+#ll{
+	color: white;
+	font-family: 'logins', Verdana, Tahoma;
+}
+#lls{
+	color: white;
+	font-family: 'loginss', Verdana, Tahoma;
+}
+#asd{
+	color: white;
+	font-family: 'body', Verdana, Tahoma;
+}
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+.wrapper {
+  position: relative;
+}
+.wrapper p {
+  bottom: 5%;
+  color: white;
+  font-family: Roboto;
+  font-size: 50px;
+  left: 0;
+  padding: 0.50em 0.75em;
+  position: absolute;
+}
+.wrapper:hover #ic {
+	opacity: 1;
+}
+
+.tab-item{
+	opacity: 1;
+}
+
+.back{
+	background-color: white;
+}
+.bl{
+position: absolute;
+color: white;
+top: 0px;
+left: 43%;
+max-width: 50px;
+max-height: 50px;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+background:
+		-webkit-linear-gradient(45deg, hsla(322, 94%, 49%, 1) 0%, hsla(322, 94%, 49%, 0) 70%),
+		-webkit-linear-gradient(315deg, hsla(156, 96%, 45%, 1) 10%, hsla(156, 96%, 45%, 0) 80%),
+		-webkit-linear-gradient(225deg, hsla(299, 92%, 47%, 1) 10%, hsla(299, 92%, 47%, 0) 80%),
+		-webkit-linear-gradient(135deg, hsla(333, 100%, 43%, 1) 100%, hsla(333, 100%, 43%, 0) 70%);
+	background:
+		linear-gradient(45deg, hsla(322, 94%, 49%, 1) 0%, hsla(322, 94%, 49%, 0) 70%),
+		linear-gradient(135deg, hsla(156, 96%, 45%, 1) 10%, hsla(156, 96%, 45%, 0) 80%),
+		linear-gradient(225deg, hsla(299, 92%, 47%, 1) 10%, hsla(299, 92%, 47%, 0) 80%),
+		linear-gradient(315deg, hsla(333, 100%, 43%, 1) 100%, hsla(333, 100%, 43%, 0) 70%);
+		border:1px white solid;
+}
+ion-tabs.tabs-color-active-positive .tab-item{
+	color: white;
+}
+.profile{
+	color: white;
+	text-align: center;	
+}
+.icon-circle, .icon-circle-large, .icon-circle-small{
+  position: relative;
+  display: inline-block;
+width: 35px; /* 60*/
+	height: 35px; 
+  font-size:30px; 
+   -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+	border-radius: 50%;
+	 background: #33cd5f; /*#ececec;ebebeb*/
+  color: #fff;
+  text-align:center;
+  /*vertical-align: middle;*/
+}
+
+.icon-circle-large {
+  width: 90px;
+  height: 90px;
+  font-size: 64px; /* 64, originally 60 */
+  padding: 16px;
+}
+.icon-circle-small {
+  width: 24px;
+  height: 24px;
+  font-size: 20px;
+}
+.icon-circle-outline {
+   border: 1px solid rgb(0, 161, 225);
+   background: transparent;
+  color: rgb(0, 161, 225);
+}
+.icon-circle-outline i {  }
+.item-icon-circle {
+   -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+	border-radius: 50%;
+	width: 90px;
+	height: 90px;   
+  text-align:center;
+  color:white;
+}
+.item-icon-circle i {
+  /*text-align:center;
+  color:white;*/
+   /*margin: 0px auto;
+  padding: 0px;
+  display:block;*/
+  font-size:40px;
+}
+.bg-circle-alt {
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+	border-radius: 50%;
+	width: 90px;
+	height: 90px; 
+}
+
+.login{
+}
+.loginHeader{
+	background:transparent !important;
+	 border:none;
+}
+.title{
+	
+}
+.searchLP{
+	color:#ccc;
+}
+#joyinButton{
+background: -webkit-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: -o-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: -ms-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: -moz-linear-gradient(left, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+background: linear-gradient(to right, rgb(248, 50, 170) 0%, rgb(255, 85, 108) 40%, rgb(215, 119, 136) 64%, rgb(145, 153, 192) 84%, rgb(82, 178, 237) 100%);
+
+position:absolute;
+bottom:80px;
+right:20px;
+border: 2px white solid;
+color: white;
+border-radius: 50%;font-size:30px;-webkit-box-shadow: 0px 5px 8px 0px rgba(1, 0, 0, 0.2);
+-moz-box-shadow:    0px 5px 8px 0px rgba(1, 0, 0, 0.2);
+box-shadow:         0px 5px 8px 0px rgba(1, 0, 0, 0.2);
+}
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated {
+	color: #444;
+}

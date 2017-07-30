@@ -1,0 +1,104 @@
+<ion-view>
+<ion-nav-title>
+        <p style="color:white;padding:4px">{{chat.lastText}}</p>
+     </ion-nav-title>
+      <ion-nav-buttons side="right">
+       <a class="button button-clear"  style="padding:4px;margin-right:5px" href="#">
+        <i class="ion-android-share-alt" style="font-size:30px;color:white"></i>
+      </a>
+    </ion-nav-buttons>
+  <ion-content class="" overflow-scroll="false" scrollbar-y="false">
+  <div class="list">
+ <div class="item item-avatar item-icon-right" style="border:none;">
+   <img ng-src="{{chat.face}}" style="max-width:50px;max-height:50px;margin-left:-5px;margin-top:-5px">
+    <h2 style="color:orange;font-weight:bold">{{chat.lastText}}</h2>
+    <h4 style="color:black;">{{chat.name}}</h4>
+    <i style="color:grey;" class="icon ion-android-done"></i>
+</div>
+ <div class="row" style="border-bottom:1px #ccc solid;text-align:center;">
+  <div class="col col-center">
+  <a href="#" style="color:black;text-decoration: none;"><i  style="margin-right:5px"  class="icon ion-clock"></i>{{chat.time}}</a>
+  </div>
+  <div class="col col-center">
+    <a href="#" style="color:black;text-decoration: none;"><i style="margin-right:5px" class="icon ion-location"></i>{{chat.loca}}</a>
+  </div>
+  <div class="col col-center">
+    <a href="#" style="color:black;text-decoration: none;"><i  style="margin-right:5px"  class="icon ion-ios-people"></i>22 People</a>
+  </div>
+</div>
+<div class="row" style="color:#444;text-align:center;margin-top:5px;">
+  <p>{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}{{chat.lastText}}</p>
+</div>
+</div>
+  <ion-slide-box on-slide-changed="slideHasChanged($index)" show-pager="false">
+<ion-slide>
+<div  class="list card wrapper" style="margin-top:-15px;height:250px;background:url(./img/search/11.jpg)  no-repeat center center fixed;">
+  <div class="item item-avatar" style="border-top:none;position: absolute;
+bottom: 0;width:100%;background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);">
+   <img ng-src="{{chat.face}}" style="max-width:40px;max-height:40px;">
+    <h2 style="color:orange;">{{chat.lastText}}</h2>
+    <h4 style="color:white;">{{chat.name}}</h4>
+</div>
+</div>
+</ion-slide>
+<ion-slide>
+<div  class="list card wrapper" style="margin-top:-15px;height:250px;background:url(./img/search/6.jpg)  no-repeat center center fixed;">
+  <div class="item item-avatar" style="border-top:none;position: absolute;
+bottom: 0;width:100%;background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);">
+   <img ng-src="{{chat.face}}" style="max-width:40px;max-height:40px;">
+    <h2 style="color:orange;">{{chat.lastText}}</h2>
+    <h4 style="color:white;">{{chat.name}}</h4>
+</div>
+</div>
+</ion-slide>
+<ion-slide>
+<div  class="list card wrapper" style="margin-top:-15px;height:250px;background:url(./img/search/11.jpg)  no-repeat center center fixed;">
+  <div class="item" style="position: absolute;height:100%;width:100%;background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);">
+    <h1 style="margin-top:30%;color:white;width:100%;text-align:center">12+ More Photos</h1>
+</div>
+</div>
+</ion-slide>
+
+</ion-slide-box>
+<p style="text-align:center;color:#444;padding:5px;margin-top:-35px;position:inherit">5 Comments</p>
+<div class="list" style="margin-top:-13px;border:1px #ccc solid">
+  <div style="border:none" class="item item-avatar item-icon-right" >
+   <img ng-src="{{chat.face}}" style="max-width:40px;max-height:40px;">
+    <h3>Marty McFly</h3>
+    <p style="font-size:12px;">Its greaats</p>
+    <i class="icon ion-android-favorite-outline" style="font-size:20px;height:60%;"></i>
+      <p style="font-size:11px;right:20px;position:absolute">2m</p>
+  </div>
+ <div style="border:none" class="item item-avatar item-icon-right" >
+   <img ng-src="{{chat.face}}" style="max-width:40px;max-height:40px;">
+    <h3>Marty McFly</h3>
+    <p style="font-size:12px;">Its greaats</p>
+    <i class="icon ion-android-favorite-outline" style="font-size:20px;height:60%;"></i>
+      <p style="font-size:11px;right:20px;position:absolute">2m</p>
+  </div>
+   <div style="border:none" class="item item-avatar item-icon-right" >
+   <img ng-src="{{chat.face}}" style="max-width:40px;max-height:40px;">
+    <h3>Marty McFly</h3>
+    <p style="font-size:12px;">Its greaats</p>
+    <i class="icon ion-android-favorite-outline" style="font-size:20px;height:60%;"></i>
+      <p style="font-size:11px;right:20px;position:absolute">2m</p>
+  </div>
+  <div style="border:none;text-align:center;">
+  <button style="margin-top:5px" class="button button-small button-outline button-dark">
+All Comment
+</button>
+</div>
+        <div class="item item-input-inset" style="margin-top:15px;border:none;" id="footerInp" >
+    <label class="item-input-wrapper" style="border:none;" >
+      <input type="text" placeholder="Type Message">
+    </label>
+    <button class="button button-clear button-small  button-positive">
+     <i class="icon ion-paper-airplane"></i>
+    </button>
+  </div>
+      </div>
+  </ion-content>
+</ion-view>

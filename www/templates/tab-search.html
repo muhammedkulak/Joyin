@@ -1,0 +1,197 @@
+<ion-view class="back">
+ <ion-nav-title>
+         <span id="hh"><p style="padding:10px">Discover</p></span>
+
+     <!--    <div class="bar bar-header item-input-inset" id="" style="border-bottom:none">
+  <label class="item-input-wrapper">
+    <i style="font-size:20px" class="icon ion-search"></i>
+    <input type="search" placeholder="Search" value="#sBicycle">
+      <button class="button button-clear"><i style="color:grey;font-size:16px;" class="ion-android-close"></i></button>
+  </label>
+  
+</div> -->
+     </ion-nav-title>
+      <ion-nav-buttons side="right">
+       <a class="button button-clear"  style="padding:4px;margin-right:5px" href="#/searchh">
+        <i class="ion-search" style="font-size:30px;color:white"></i>
+      </a>
+    </ion-nav-buttons>
+  <ion-content overflow-scroll="false" scrollbar-y="false" >
+<div class="row" style="margin-top:6px;border-bottom:1px #ccc solid;border-top:1px #ccc solid">
+  <div class="col">
+    <a id="latest" style="font-weight: bold;color:#444;float:left;text-decoration: none;margin-top:3px" ng-click="latest()">LATEST</a>
+  </div>
+  <div class="col">
+    <a id="popular" style="font-weight: bold;color:#ccc;float:right;text-decoration: none;margin-top:3px" ng-click="popular()">POPULAR</a>
+  </div>
+</div>
+ <ion-slide-box  on-slide-changed="slideHasChanged($index)" show-pager="false">
+<ion-slide>
+  <div  style="margin-top:2px;text-align: center;">
+            <a id="wrap" class="wrapper" on-hold="openPopover($event)"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/1.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"><i class="icon ion-arrow-right-b" style=""></i></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/2.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/3.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/4.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"><i class="icon ion-arrow-right-b" style=""></i></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/5.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/6.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"><i class="icon ion-arrow-right-b" style=""></i></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/7.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/8.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/9.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/10.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/11.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"><i class="icon ion-arrow-right-b" style=""></i></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/22.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/13.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/14.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/21.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/16.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/17.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/1.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/19.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/20.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/21.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/22.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/1.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"><i class="icon ion-arrow-right-b" style=""></i></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/2.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"><i class="icon ion-arrow-right-b" style=""></i></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/3.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            <a id="wrap" class="wrapper"><img  style="width:115px;height:115px;border:1px white solid;border-radius:5px" src="./img/search/4.jpg"><p id="ic" style="opacity: 1.0;bottom:-15px;left:15px"></p></a>
+            
+           
+           
+   </div>
+</ion-slide>
+<ion-slide>
+    <div class="list card" style="margin-top:5px;">
+                <div class="item item-avatar" style="">
+    <img src="./img/adam.jpg" style="max-width:40px;max-height:40px">
+    <h2 style="color:#FF7D15">Lets Have Party !</h2>
+    <p>Marty Hans</p>
+  </div>
+  <div class="row" style="text-align:center;">
+  <div class="col">
+  <a href="#" style="color:black;text-decoration: none;"><i  style="margin-right:5px"  class="icon ion-clock"></i>1 Hour</a>
+  </div>
+  <div class="col">
+    <a href="#" style="color:black;text-decoration: none;"><i style="margin-right:5px" class="icon ion-location"></i>Kadıköy</a>
+  </div>
+  <div class="col">
+    <a href="#" style="color:black;text-decoration: none;"><i  style="margin-right:5px"  class="icon ion-ios-people"></i>22 People</a>
+  </div>
+</div>
+ <ion-slide-box  on-slide-changed="slideHasChanged($index)" show-pager="false">
+ <ion-slide>
+<div class="item item-image" >
+    <img src="./img/search/21.jpg" style="height:250px">
+  </div>
+  </ion-slide>
+   <ion-slide>
+<div class="item item-image" >
+    <img src="./img/search/21.jpg" style="height:250px">
+  </div>
+  </ion-slide>
+        </ion-slide-box>       
+</div>
+<div class="list card" style="margin-top:5px;">
+                <div class="item item-avatar" style="">
+    <img src="./img/max.png" style="max-width:40px;max-height:40px">
+    <h2 style="color:#FF7D15">Hey its me !</h2>
+    <p>Max Lynx</p>
+  </div>
+  <div class="row" style="text-align:center;">
+  <div class="col">
+  <a href="#" style="color:black;text-decoration: none;"><i  style="margin-right:5px"  class="icon ion-clock"></i>1 Hour</a>
+  </div>
+  <div class="col">
+    <a href="#" style="color:black;text-decoration: none;"><i style="margin-right:5px" class="icon ion-location"></i>Kadıköy</a>
+  </div>
+  <div class="col">
+    <a href="#" style="color:black;text-decoration: none;"><i  style="margin-right:5px"  class="icon ion-ios-people"></i>22 People</a>
+  </div>
+</div>
+ <ion-slide-box  on-slide-changed="slideHasChanged($index)" show-pager="false">
+ <ion-slide>
+<div class="item item-image" >
+    <img src="./img/search/22.jpg" style="height:250px">
+  </div>
+  </ion-slide>
+   <ion-slide>
+<div class="item item-image" >
+    <img src="./img/search/21.jpg" style="height:250px">
+  </div>
+  </ion-slide>
+        </ion-slide-box>       
+</div>
+ <div class="list card" style="margin-top:5px;">
+                <div class="item item-avatar" style="">
+    <img src="./img/perry.png" style="max-width:40px;max-height:40px">
+    <h2 style="color:#FF7D15">Look at my ..</h2>
+    <p>Adam Bradleyson</p>
+  </div>
+  <div class="row" style="text-align:center;">
+  <div class="col">
+  <a href="#" style="color:black;text-decoration: none;"><i  style="margin-right:5px"  class="icon ion-clock"></i>1 Hour</a>
+  </div>
+  <div class="col">
+    <a href="#" style="color:black;text-decoration: none;"><i style="margin-right:5px" class="icon ion-location"></i>Kadıköy</a>
+  </div>
+  <div class="col">
+    <a href="#" style="color:black;text-decoration: none;"><i  style="margin-right:5px"  class="icon ion-ios-people"></i>22 People</a>
+  </div>
+</div>
+ <ion-slide-box  on-slide-changed="slideHasChanged($index)" show-pager="false">
+ <ion-slide>
+<div class="item item-image" >
+    <img src="./img/search/13.jpg" style="height:250px">
+  </div>
+  </ion-slide>
+   <ion-slide>
+<div class="item item-image" >
+    <img src="./img/search/15.jpg" style="height:250px">
+  </div>
+  </ion-slide>
+        </ion-slide-box>       
+</div>
+</ion-slide>
+ </ion-slide-box>
+  </ion-content>
+</ion-view>
+ <!-- <div class="list card">
+
+  <div class="item item-avatar">
+    <img src="./img/ben.png" style="max-width:40px;max-height:40px">
+    <h2 style="color:#FF7D15">Pretty Hate Machine</h2>
+    <p>Nine Inch Nails</p>
+  </div>
+
+  <div class="item item-image" style="height:350px">
+    <img src="./img/ben.png">
+  </div>
+
+<div class="row" style="text-align:center;">
+  <div class="col">
+  <a href="#" style="color:black;text-decoration: none;"><i  style="margin-right:5px"  class="icon ion-clock"></i>1 Hour</a>
+  </div>
+  <div class="col">
+    <a href="#" style="color:black;text-decoration: none;"><i style="margin-right:5px" class="icon ion-location"></i>Kadıköy</a>
+  </div>
+  <div class="col">
+    <a href="#" style="color:black;text-decoration: none;"><i  style="margin-right:5px"  class="icon ion-ios-people"></i>22 People</a>
+  </div>
+</div>
+</div> -->
+
+ <!--  <div class="list" style="margin:0px">
+    <a class="item item-thumbnail-left" href="#">
+      <img src="./img/ben.png">
+      <h2>Ben Sann</h2>
+      <p style="color:#FF7D15">Nine Inch Nails</p>
+      <p style="font-weight: bold;font-size:12px;"><i class="ion-location" style="font-size:16px;margin-top:50px;margin-right:6px;"></i>Kadıköy</p>
+      <div class="row" style="text-align:center;margin:0px;padding:0px">
+        <div class="col">
+           <p style="font-weight: bold;font-size:12px;"><i class="icon ion-clock" style="font-size:16px;margin-top:50px;margin-right:6px;"></i>1h ago</p>
+        </div>
+        <div class="col">
+           <p style="font-weight: bold;font-size:12px;"><i class="icon ion-ios-people" style="font-size:16px;margin-top:50px;margin-right:6px;"></i>12</p>
+        </div>
+      </div>
+      </a> 
+</div>-->
